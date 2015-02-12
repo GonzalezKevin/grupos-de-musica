@@ -1,0 +1,27 @@
+html, body, h2, h3, p, ol, ul, li
+{
+    color: purple;
+    
+}
+
+a
+{
+    color: grey;
+}
+h1
+{
+    color: red;
+}
+
+
+
+ul<li
+{
+   list-style: circle ;
+}
+
+ol<li
+{
+   list-style:upper-roman;
+}
+    
