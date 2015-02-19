@@ -1,4 +1,4 @@
-html, h1, h2, h3, p, ol, ul, li, a
+html, ol, ul, li, a
 {
     
 }
@@ -6,11 +6,14 @@ html, h1, h2, h3, p, ol, ul, li, a
 h1
 {
     text-align: center;
-    color: #FFFFFF;
+    color: #5A2B00;
+    margin: 0px 20px;   
 }
 
 h1, h2, h3
 {
+    color: #C57932;
+    border-bottom: 2px solid #C57932;
     margin: 0px 20px;   
 }
 
@@ -27,12 +30,28 @@ header
 header ul
 {
      margin-top: 0;
-    padding: 0;
+     padding: 0;
 }
 header li, a
 {
     text-decoration: none;
     
+    display: inline;
+}
+
+header img
+{
+    width: 447px;
+    height: 90px;
+    display: block;
+    margin: auto;  
+    
+    
+}
+
+ul li
+{
+    text-decoration: none;
     display: inline;
 }
 
@@ -42,16 +61,41 @@ header li, a
     width: 680px;
     margin: 0px auto;
 }
-p
+
+.lugar
 {
-    margin: 25px;
+    color: green;
+    padding: 10px;
 }
+
 .centrado
 {
     width: 680px;
     margin: 0px auto;
     
 }
+
+.cantantes
+{
+    list-style-type: none;
+    text-align: center;
+}
+
+img
+{
+    width: 50px;
+    height: auto;
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    vertical-align: middle;
+    /*background-color: #013137;*/
+}
+
+
+
 -----------------------------------------------------------------------------------
 
 /* As hex codes */
